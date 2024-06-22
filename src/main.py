@@ -1,7 +1,11 @@
 from file_operations import load_matches, save_matches
 from match_operations import display_matches, add_match, total_goals, high_scoring_matches
 
-FILE_PATH = '../data/matches.json'
+# This file path works when you run the program from the executable file
+FILE_PATH = './data/matches.json' 
+# IF you run just the main.py file from python3 main.py, you fetch the file like this:
+# FILE_PATH = '../data/matches.json' 
+
 
 def main():
     matches = load_matches(FILE_PATH)
