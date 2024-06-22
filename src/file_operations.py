@@ -27,4 +27,3 @@ def save_matches(file_path, matches):
         print(f"Error: Permission denied to write.")
     except Exception as e:
         print("An unexpected error occured", e)
-        
